@@ -25,6 +25,22 @@
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
+
+    <style>
+      html, body {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+
+    </style>
+
   </head>
 
   <body class="index-page">
@@ -75,12 +91,12 @@
 
 
       <!-- About Section -->
-      <section id="about" class="about section">
+      <section id="about" class="about section" style="padding: 30px 0;">
 
         <!-- Section Title -->
         <div class="container section-title">
           <h2>About</h2>
-          <p> 12+ years of experience in building scalable applications using Java, Spring Boot, Angular, and AWS. Skilled in Agile delivery, team leadership, and end-to-end development with a focus on reliability, maintainability, and high test coverage.</p>
+          <p> 12+ years of experience in building scalable applications using Java, Spring Boot, Angular, and Cloud technologies like AWS. Skilled in Agile delivery, team leadership, and end-to-end development with a focus on reliable, maintainable, scalable and highly available web applications .</p>
         </div>
         <!-- End Section Title -->
 
@@ -99,21 +115,21 @@
               <div class="row">
                 <div class="col-lg-6">
                   <ul>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <a href="https://www.sumitmittal.dev" target="_blank">https://www.sumitmittal.dev</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <a href="https://www.sumitmittal.dev" target="_blank">https://sumitmittal.dev</a></li>
                     <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>sumitmittal.adonis@gmail.com</span></li>
                     <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 9990 550 996</span></li>
                   </ul>
                 </div>
                 <div class="col-lg-6">
                   <ul>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master of Technology</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master of Technology (I.T.)</span></li>
                     <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>12 Sep 1987</span></li>
                     <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Noida, India</span></li>
                   </ul>
                 </div>
               </div>
               <p class="py-3">
-                Holds around 6 years of onsite experience, collaborating closely with clients to gather requirements, drive engagement, provide technical consultations, and ensure the successful delivery of high-impact projects. This involved regular client interactions, stakeholder management, and aligning technical solutions with business objectives.
+                Holds around 6 years of onsite experience in collaborating closely with clients to gather requirements, drive engagement, provide technical consultations, and ensures the successful delivery of highly impactful projects. This involves regular client interactions, stakeholder management, and aligning technical solutions with business objectives.
               </p>
             </div>
           </div>
@@ -126,7 +142,7 @@
 
 
       <!-- Skills Section -->
-      <section id="skills" class="skills section">
+      <section id="skills" class="skills section" style="padding: 30px 0;">
         <div class="container section-title" style="padding-bottom: 10px;" data-aos="fade-up">
           <h2>Skills</h2>
           <p>A comprehensive suite of technologies, frameworks, and tools that I leverage to design, develop, deploy, and maintain robust full-stack applications across modern enterprise environments.</p>
@@ -136,41 +152,56 @@
           <div class="row skills-content">
 
             <div class="col-lg-6">
+
               <h5 class="fw-bold mt-4"><i class="bi bi-code-slash me-2"></i>Programming</h5>
-              <p>Java (8–21), OOP, Functional Programming</p>
-
-              <h5 class="fw-bold mt-4"><i class="bi bi-link-45deg me-2"></i>RESTful Web APIs</h5>
-              <p>Microservices using JAX-RS, Spring REST, Jersey, JWT, OAuth 2.0, OpenAPI/Swagger</p>
-
+              <p>Java 8 - Java 21, Object Oriented Programming, Functional Programming, Multi-threading</p>
+              
+              <h5 class="fw-bold mt-4"><i class="bi bi-link-45deg me-2"></i>Microservices</h5>
+              <p>Spring Cloud Config Server, Service discovery and registration, API Gateway, Fault Tolerance and Resiliency, Autharization servers(KeyClock, Okta)</p>
+              
               <h5 class="fw-bold mt-4"><i class="bi bi-box me-2"></i>Frameworks</h5>
-              <p>Spring Boot, Spring MVC, Spring Security, Spring IoC, Struts, Jersey, JAX-RS</p>
-
+              <p>Spring Boot, Spring MVC, Spring Security, Spring IoC, Design patterns</p>
+              
               <h5 class="fw-bold mt-4"><i class="bi bi-diagram-3 me-2"></i>ORM</h5>
               <p>Spring Data, JPA, Hibernate</p>
-
+              
+              <h5 class="fw-bold mt-4"><i class="bi bi-tools me-2"></i>Monitoring Tools</h5>
+              <p>OpenAPI/Swagger, SonarQube, Prometheus, Grafana, Splunk, Postman </p>
+              
               <h5 class="fw-bold mt-4"><i class="bi bi-database me-2"></i>Databases</h5>
               <p>MySQL, Postgres, Oracle, DB2, Sybase, MongoDB, Redis Cache</p>
 
-
               <h5 class="fw-bold mt-4"><i class="bi bi-terminal me-2"></i>Scripting</h5>
-              <p>TypeScript, JavaScript, Shell Script</p>
+              <p>TypeScript, JavaScript, Shell Script, Python</p>
+
+              <h5 class="fw-bold mt-4"><i class="bi bi-tools me-2"></i>Testing</h5>
+              <p>JUnit, Mockito, Jacoco</p>
             </div>
 
             <div class="col-lg-6">
               <h5 class="fw-bold mt-4"><i class="bi bi-window me-2"></i>Web & UI</h5>
               <p>Angular 19, JQuery, JSP, Servlets, HTML, CSS, AJAX, XML, YML, JSON</p>
 
-              <h5 class="fw-bold mt-4"><i class="bi bi-cloud me-2"></i>Cloud & DevOps</h5>
-              <p>AWS (EC2, Lambda, ECS, EKS, RDS, DynamoDB, S3, etc.), Jenkins CI/CD, Docker, Kubernetes</p>
+              <h5 class="fw-bold mt-4"><i class="bi bi-cloud me-2"></i>Cloud Solutions</h5>
+              <p>AWS (EC2, Lambda, ECS, EKS, RDS, DynamoDB, S3, Cloud Watch, SNS)</p>
+
+              <h5 class="fw-bold mt-4"><i class="bi bi-link-45deg me-2"></i>RESTful Web APIs</h5>
+              <p>Spring REST, JAX-RS, JWT, OAuth 2.0</p>
 
               <h5 class="fw-bold mt-4"><i class="bi bi-envelope-paper me-2"></i>Messaging</h5>
               <p>Apache Kafka, AWS SQS</p>
 
-              <h5 class="fw-bold mt-4"><i class="bi bi-kanban me-2"></i>Methodologies & Tools</h5>
-              <p>Agile, Scrum, Kanban, TDD, IntelliJ, Eclipse, Jira, Apache Tomcat, Autosys, JDBC, Postman</p>
+              <h5 class="fw-bold mt-4"><i class="bi bi-envelope-paper me-2"></i>Containerization</h5>
+              <p>Docker, Kubernetes, AWS ECS, AWS EKS</p>
 
-              <h5 class="fw-bold mt-4"><i class="bi bi-tools me-2"></i>Build, QA & Monitoring</h5>
-              <p>Maven, Gradle, GitHub, Bitbucket, SVN, Perforce, JUnit, Mockito, Jacoco, SonarQube, Prometheus, Grafana, Splunk, Log4j</p>
+              <h5 class="fw-bold mt-4"><i class="bi bi-tools me-2"></i>CI/CD</h5>
+              <p>Jenkins CI/CD, AWS CI/CD pipeline (AWS CodeCommit, AWS CodeBuild, AWS CodeDeploy)</p>
+
+              <h5 class="fw-bold mt-4"><i class="bi bi-envelope-paper me-2"></i>Version Control & Build Tools</h5>
+              <p>GitHub, Bitbucket, SVN, Perforce, Maven, Gradle, Log4j</p>
+
+              <h5 class="fw-bold mt-4"><i class="bi bi-kanban me-2"></i>Methodologies & Tools</h5>
+              <p>Agile, Scrum, Kanban, TDD, IntelliJ, Eclipse, Jira, Apache Tomcat, Autosys, JDBC </p>
             </div>
 
           </div>
@@ -183,7 +214,7 @@
 
 
       <!-- Education Section -->
-      <section id="education" class="resume section">
+      <section id="education" class="resume section" style="padding: 30px 0;">
         <div class="container section-title">
           <h2>Education</h2>
           <p>A snapshot of my academic background, highlighting key qualifications and areas of study.</p>
@@ -234,7 +265,7 @@
 
 
       <!-- Professional Experience Section -->
-      <section id="experience" class="resume section">
+      <section id="experience" class="resume section" style="padding: 30px 0;">
 
         <!-- Section Title -->
         <div class="container section-title">
@@ -256,16 +287,9 @@
                 <span>Montreal, Canada</span>
               </div>
               <ul>
-                <li>As a Senior Full-Stack Developer, spent 80% of the time developing robust microservices using Core Java, securing endpoints with JWT, consuming messages from Apache Kafka and Amazon SQS, and building scalable UIs using Angular and TypeScript for Citibank Loan application’s internal dashboards and client-facing modules.</li>
-                <li>As a Technical Lead, allocated 20% of time to leading a cross-functional team through sprint planning, task distribution, code reviews, pull request approvals, and organizing client and team sync-ups across time zones.</li>
-                <li>Developed reusable Angular components and services for handling RESTful API integrations, and implemented reactive forms and state management using RxJS.</li>
-                <li>Wrote comprehensive unit tests using JUnit for Java components and Karma/Jasmine for Angular components to ensure high test coverage and reliable deployments.</li>
-                <li>Managed application builds and deployments across environments using Docker, including writing custom Dockerfiles, creating images, and orchestrating containers using AWS ECS.</li>
-                <li>Integrated Swagger/OpenAPI to document backend APIs and collaborated with frontend to align data models and API contracts.</li>
-                <li>Presented sprint demos to clients, gathered feedback, and successfully migrated code to production.</li>
-                <li>Led the CI/CD pipeline setup using Jenkins, ensuring seamless integration of both backend and frontend codebases with automated testing and deployment.</li>
-                <li>Worked extensively on AWS EC2, ECS, and S3 for deploying full-stack applications, and ensured production stability through proactive monitoring and log analysis on Linux servers.</li>
-                <li>Utilized tools such as Maven, Git, Jira, IntelliJ, and log4j, along with Angular CLI and browser dev tools, to streamline development and debugging across both backend and frontend.</li>
+                <li>As a Senior Full-Stack Developer and Technical Lead, led the design and development of scalable microservices with Java and Angular for Citibank’s loan platform, focusing on secure, event-driven architecture using Kafka and SQS.</li>
+                <li>Spearheaded DevOps initiatives including Docker-based deployments on AWS ECS, CI/CD automation with Jenkins, and API documentation using Swagger/OpenAPI.</li>
+                <li>Ensured code quality and delivery through unit testing, team leadership in Agile sprints, and end-to-end coordination with global stakeholders.</li>
               </ul>
             </div>
 
@@ -280,16 +304,9 @@
                 <span>Montreal, Canada</span>
               </div>
               <ul>
-                <li>Worked as a Full-Stack Engineer, focusing on developing scalable backend services in Java (Core Java) and building interactive frontend components using Angular and TypeScript to deliver seamless user experiences across various modules.</li>
-                <li>Implemented secure REST APIs using JWT authentication, and built Angular services to consume these APIs with proper error handling and data binding.</li>
-                <li>Handled asynchronous event processing by integrating Apache Kafka and Amazon SQS, and visualized real-time data on the frontend using Angular charts and tables.</li>
-                <li>Containerized applications with Docker, authored Dockerfiles, and managed service deployment using Amazon ECS for both backend services and Angular apps.</li>
-                <li>Created interactive and responsive UI components using Angular features like Reactive Forms, RxJS Observables, and ng-content for modular content projection.</li>
-                <li>Participated in setting up and maintaining CI/CD pipelines with Jenkins, automating test execution and deployment processes for full-stack applications.</li>
-                <li>Took ownership of infrastructure setup and configuration using AWS services like EC2, S3, and ECS to support highly available application environments.</li>
-                <li>Regularly conducted code reviews, managed Git branches, and handled merge conflicts while ensuring adherence to coding standards and best practices.</li>
-                <li>Led agile ceremonies including sprint planning, retrospectives, and daily stand-ups; coordinated across geographies to ensure timely delivery and continuous client engagement.</li>
-                <li>Used tools and platforms such as Maven, Git, IntelliJ IDEA, Linux terminals, and Jira to streamline development workflows, task tracking, and release management.</li>
+                <li>Worked as a Full-Stack Engineer developing secure, scalable backend services in Core Java and building dynamic, responsive UIs in Angular and TypeScript for real-time data visualization and seamless user experience.</li>
+                <li>Implemented JWT-secured REST APIs, integrated Kafka and SQS for asynchronous processing, containerized services using Docker, and deployed full-stack apps on AWS ECS.</li>
+                <li>Led Agile ceremonies, managed CI/CD pipelines with Jenkins, and ensured code quality through rigorous reviews and automated testing, while coordinating delivery across global teams.</li>
               </ul>
             </div>
 
@@ -304,13 +321,9 @@
                 <span>Montreal, Canada</span>
               </div>
               <ul>
-                <li>Break down high-level tasks into lower-level components for estimation, development, unit and integration testing.</li>
-                <li>Managed cross functional teams and written business logic (coding) in Java 21 and written many automation scripts in Python.</li>
-                <li>Created project architecture with Spring Boot, Spring IoC, Spring MVC and Spring Data and implemented backend database layers to communicate with databases like DynamoDB & MongoDB.</li>
-                <li>Implemented various Microservices REST endpoints with Spring REST.</li>
-                <li>Interact with the business, cross-functional teams and service providers on a day-to-day basis for requirement clarifications & development.</li>
-                <li>Manage change requests by creating ticket(s), analyzing and capturing the impact of the changes and implementing the signed-off changes.</li>
-                <li>Provided Level 3 support, and participated in critical production outages during global business hours.</li>
+                <li>Led cross-functional teams in designing and developing microservices using Java, Spring Boot, and NoSQL databases like DynamoDB and MongoDB, with a focus on clean architecture and scalable REST endpoints.</li>
+                <li>Decomposed high-level tasks into estimable components, wrote automation scripts in Python, and collaborated daily with business and technical stakeholders for requirement analysis and delivery.</li>
+                <li>Managed change requests, handled Level 3 support, and contributed to resolving critical production issues across global time zones to ensure application stability and performance.</li>
               </ul>
             </div>
 
@@ -325,18 +338,9 @@
                 <span>Montreal, Canada</span>
               </div>
               <ul>
-                <li>Responsible for end-to-end solution designing, development, testing and code review in Java technologies.</li>
-                <li>Handled critical production outages, which involved understanding the root cause of the issue on running production servers, resolving the issue quickly in the short production window time frame and redeploying the upgraded build to resolve the live production issues.</li>
-                <li>Worked on java multithreading using Executor framework to build asynchronous consumer applications which consumed data from different brokers simultaneously and produced aggregated results. </li>
-                <li>Implemented various design patterns to make the code more robust, less coupled and easy to extend.</li>
-                <li>Developed the core business logic and scripting in Java 11 & Python.</li>
-                <li>Created controller, service, repository and component classes in Spring boot framework.</li>
-                <li>Developed and consumed many microservices in Spring Rest and by using JWT Json Web Tokens.</li>
-                <li>Hosted application on Treadmill (in-house AWS Cloud of MS) as a cloud solution.</li>
-                <li>Consumed data stream from Apache Kafka messaging topics to scale modules independently.</li>
-                <li>Jenkins as CI/CD, DB2 & MongoDB as databases, JUnit, Github, Perforce, Jira, Autosys, Maven.</li>
-                <li>Used SonarQube for code quality check, Swagger for documentation, Prometheus & Grafana for monitoring, Splunk for log aggregation of different microservices.</li>
-                <li>Approve and/or create pull requests to merge changes in the master branch.</li>
+                <li>Designed and developed end-to-end Java-based solutions, building asynchronous consumer apps with multithreading, Spring Boot microservices, and JWT-secured APIs, while hosting applications on AWS-based in-house cloud (Treadmill).</li>
+                <li>Handled critical production outages, implemented design patterns for maintainable code, and developed core logic using Java 11 and Python with real-time data consumption from Kafka.</li>
+                <li>Led CI/CD with Jenkins, maintained quality with SonarQube and JUnit, and used tools like Swagger, Prometheus, Grafana, and Splunk for documentation, monitoring, and logging across microservices.</li>
               </ul>
             </div>
 
@@ -351,13 +355,9 @@
                 <span>Noida, India</span>
               </div>
               <ul>
-                <li>Full stack developer to develop end-to-end functionalities and assist in the design & implementation of the application components.</li>
-                <li>Prepare Design, Data Flow, and Process flow documents.</li>
-                <li>Identify & address impacted and interfacing functions & modules.</li>
-                <li>Revamp Java-based application developed in Spring, Hibernate, and J2EE.</li>
-                <li>Transfer the code to different environments like DEV, QA, UAT and PROD.</li>
-                <li>Used Strategy design pattern to make our application flexible to choose required algorithms at run time.</li>
-                <li>Major Tech Stacks: Java 8, Spring IOC, Spring MVC, Hibernate, Apache Kafka, Docker & Kubernetes, Spring REST Microservices, Oracle, Gitlab, JUnit, Jenkins.</li>
+                <li>Worked as a Full Stack Developer, contributing to the design and end-to-end development of Java-based applications using Spring, Hibernate, and Microservices architecture.</li>
+                <li>Created design, data flow, and process flow documentation, revamped legacy modules, and managed environment-wise deployments (DEV to PROD).</li>
+                <li>Utilized Strategy design pattern for runtime flexibility and employed technologies like Java 8, Kafka, Docker, Kubernetes, Oracle, GitLab, and Jenkins for scalable, maintainable development.</li>
               </ul>
             </div>
 
@@ -372,15 +372,9 @@
                 <span>Noida, India</span>
               </div>
               <ul>
-                <li>End-to-end development of the admin panel.</li>
-                <li>Use Java/J2EE technologies to develop web applications for client-server environments & add functionalities to an existing application.</li>
-                <li>Deliver REST web services to mobile teams as per their requirements.</li>
-                <li>Push the final tested version in UAT and then in the production environment.</li>
-                <li>Schedule and prioritize work items during scrum and retrospectives meetings.</li>
-                <li>Interact with clients to gather and understand the requirements and clarify doubts.</li>
-                <li>Upgrade the existing application by including the changes of the new requirement requests from the client.</li>
-                <li>Participating in code reviews and actively contributing to upgrading the code quality.</li>
-                <li>Major Tech Stacks: Java 6, Spring3, Hibernate, REST Web Services in Jersey, bitbucket, JSP, JQuery, AJAX, Oracle, FileZilla, Maven, Postman, IntelliJ.</li>
+                <li>Led end-to-end development of the admin panel and enhanced existing Java/J2EE web applications with new features and RESTful services to support mobile integration.</li>
+                <li>Managed deployments across UAT and production, participated in Agile ceremonies, and collaborated with clients for requirement gathering and clarification.</li>
+                <li>Improved code quality through active code reviews and implemented upgrades using technologies like Java 6, Spring 3, Hibernate, Jersey, JSP, Oracle, and Maven.</li>
               </ul>
             </div>
 
@@ -395,15 +389,9 @@
                 <span>Noida, India</span>
               </div>
               <ul>
-                <li>Created action classes, user interfaces layer, service layer, and Dao layer.</li>
-                <li>Design of complex, global, or strategic development projects to identify and address interfacing functions.</li>
-                <li>Continuously improving the code quality & performance of the application.</li>
-                <li>Involved in the estimation, design and development of the new requirements of the application.</li>
-                <li>Coordinate with the client and Business Analysts to gather, understand and analyze the user requirements related to the project.</li>
-                <li>Writing software code and integrating various functional and technical specifications in the application using JSP, core Java, J2EE and Struts2 technologies.</li>
-                <li>Perform unit testing and integration testing of the software application using Junit technology and also perform manual testing to ensure they meet the quality standards.</li>
-                <li>Provide maintenance and support of existing software applications by making software code modifications as part of fixing bugs and defects in sprint releases.</li>
-                <li>Major Tech Stacks: Java6, Struts2, Hibernate, REST and SOAP Web Services in Jersey, Redis, MySQL, Github, HTML, JavaScript, JQuery, AJAX, JSP, JUnit.</li>
+                <li>Contributed to full-stack development by creating action classes, UI, service, and DAO layers using Java6, Struts2, and Hibernate, while ensuring continuous code quality and performance improvements.</li>
+                <li>Collaborated with clients and BAs to analyze new requirements, designed global modules, and integrated features using JSP, J2EE, REST/SOAP services, and Redis/MySQL databases.</li>
+                <li>Performed thorough unit and integration testing with JUnit, provided maintenance support, and delivered sprint-based enhancements through agile development practices.</li>
               </ul>
             </div>
 
@@ -416,10 +404,10 @@
 
 
       <!-- Testimonials Section -->
-      <section id="testimonials" class="testimonials section">
+      <section id="testimonials" class="testimonials section" style="padding: 30px 0;">
 
         <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
+        <div class="container section-title" style="padding-bottom: 30px;" data-aos="fade-up">
           <h2>Testimonials</h2>
           <p>Hear what colleagues, clients, and collaborators say about working with me.</p>
         </div><!-- End Section Title -->
@@ -455,12 +443,12 @@
                           <span>
                             Sumit was my senior at Ericsson, and beyond being highly tech-savvy, he has been an invaluable mentor—even without an official assignment to guide me.<br/>
                             His strong collaboration skills and clear vision create a comfortable and engaging work environment, ultimately driving higher productivity.<br/>
-                            From a technology standpoint, I have never seen him stuck; he consistently comes up with innovative solutions and embraces challenges with enthusiasm. I would wholeheartedly recommend Sumit, as I have complete confidence in his ability to navigate complex tasks and challenging situations.
+                            I would wholeheartedly recommend Sumit, as I have complete confidence in his ability to navigate complex tasks and challenging situations.
                           </span>
                           <i class="bi bi-quote quote-icon-right"></i>
                         </p>
                         <h3>Nishtha</h3>
-                        <h4>Senior developer &amp; Ericsson</h4>
+                        <h4>Senior developer @ Ericsson</h4>
                         <div class="stars">
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
@@ -489,7 +477,7 @@
                           <i class="bi bi-quote quote-icon-right"></i>
                         </p>
                         <h3>Happy Porwal</h3>
-                        <h4>Engineering Manager &amp; S&P Global </h4>
+                        <h4>Engineering Manager @ S&P Global </h4>
                         <div class="stars">
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
@@ -511,19 +499,14 @@
                         <p>
                           <i class="bi bi-quote quote-icon-left"></i>
                           <span>
-                            I would highly recommend Sumit, a Java Technical Lead Consultant, for any technical leadership role within your organization. Sumit possesses an exceptional combination of technical expertise and interpersonal skills that make them a standout professional. <br/>
-                            He demonstrates an exceptional level of proficiency in Java development. Their in-depth knowledge and experience with Java make them an invaluable asset for any Java-related project or team.<br/>
-                            Also he exhibits a deep understanding of database management and design. Their ability to work with complex data structures and optimize database performance is truly impressive.<br/>
-                            Sumit is a very very good problem solver at heart. he excel at designing and implementing complex algorithms and data structures, showcasing their ability to tackle challenging technical problems effectively.<br/>
-                            He is not only an expert in their field but also an outstanding communicator. They possess the capability to convey complex technical concepts in a clear and understandable manner, fostering effective collaboration within the team.<br/>
-                            Sumit has consistently proven to be a team player who collaborates seamlessly with colleagues, fostering a positive and productive work environment. Their willingness to mentor and support team members is commendable.<br/>
-                            He consistently delivers high-quality results within project deadlines. Their dedication and focus on achieving project goals are truly impressive.<br/>
-                            In summary, Sumit is an outstanding technical lead with strong Java skills, a deep understanding of databases, a knack for solving complex problems, excellent communication abilities, and a collaborative spirit. I have no doubt that he will make a significant positive impact on any project or team he join.
+                            I would highly recommend Sumit, a Java Technical Lead Consultant, for any technical leadership role within your organization.<br/>
+                            He has consistently proven to be a team player who collaborates seamlessly with colleagues, fostering a positive and productive work environment. His willingness to mentor and support team members is commendable.<br/>
+                            In summary, Sumit is an outstanding technical lead with strong Java skills, a deep understanding of databases, a knack for solving complex problems, excellent communication abilities, and a collaborative spirit.
                           </span>
                           <i class="bi bi-quote quote-icon-right"></i>
                         </p>
                         <h3>Sidheswar Jena</h3>
-                        <h4>Associate General Manager &amp; GirnarSoft</h4>
+                        <h4>Associate General Manager @ GirnarSoft</h4>
                         <div class="stars">
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
@@ -547,13 +530,11 @@
                           <span>
                             I am pleased to recommend Sumit as a highly skilled and dedicated Senior Software Engineer. I had the pleasure of working alongside Sumit on several projects, and his expertise and dedication always stood out.<br/>
                             Sumit possesses a deep understanding of Java, Cloud, DSA and its associated technologies. His ability to solve complex problems, design robust & scalable solutions and deliver high-quality code is truly impressive. His positive attitude and commitment to continuous learning make him an invaluable asset to any development team.<br/>
-                            In addition to his technical skills, Sumit is a great team player. He seamlessly collaborated with cross-functional teams, fostering a positive and productive work environment. He collaborates effectively with colleagues, communicates ideas clearly, and is always willing to share his knowledge with others. <br/>
-                            I have no doubt that Sumit's technical proficiency, coupled with his strong work ethic and interpersonal skills, will contribute to the success of any project he takes on. I highly recommend Sumit and am confident that he would be a valuable addition to any organization seeking a skilled senior/lead software professional.
                           </span>
                           <i class="bi bi-quote quote-icon-right"></i>
                         </p>
                         <h3>Rahul Kumar Jitendra</h3>
-                        <h4>Vice President &amp; CitiGroup </h4>
+                        <h4>Vice President @ CitiGroup </h4>
                         <div class="stars">
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
@@ -565,13 +546,10 @@
                   </div>
                 </div>
               </div><!-- End testimonial item -->
-
             </div>
             <div class="swiper-pagination"></div>
           </div>
-
         </div>
-
       </section><!-- /Testimonials Section -->
 
 
@@ -579,7 +557,7 @@
 
 
       <!-- Contact Section -->
-      <section id="contact" class="contact section">
+      <section id="contact" class="contact section" style="padding: 30px 0;">
 
         <!-- Section Title -->
         <div class="container section-title text-center" data-aos="fade-up">
